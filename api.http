@@ -2,7 +2,18 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Unite Summit",
-    "details": "Um evento para quem é apaixonado por programação",
-    "maximumAttendees": 100
+    "title": "Festa da Uva",
+    "details": "Um evento para quem é apaixonado por uvas",
+    "maximumAttendees": 1
+}
+
+
+###
+
+POST http://localhost:3333/events/a0fce97f-45c3-4ee4-bb65-600116d8087b/attendees
+Content-Type: application/json
+
+{
+  "name": "Giselle Brasil",
+  "email": "giselle@gmail.com.br"
 }
