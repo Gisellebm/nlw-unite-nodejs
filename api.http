@@ -33,4 +33,9 @@ GET http://localhost:3333/attendees/4/badge
 ### 
 
 
-GET http://localhost:3333/attendees/4/check-in
+GET http://localhost:3333/attendees/3/check-in
+
+
+###
+
+GET http://localhost:3333/events/a0fce97f-45c3-4ee4-bb65-600116d8087b/attendees?query=giselle
