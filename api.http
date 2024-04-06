@@ -17,3 +17,8 @@ Content-Type: application/json
   "name": "Giselle Brasil",
   "email": "giselle5@gmail.com.br"
 }
+
+
+###
+
+GET http://localhost:3333/events/0d4ae03b-7609-49f1-8d48-43a881cccaa4
