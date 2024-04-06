@@ -2,18 +2,18 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Festa da Uva",
-    "details": "Um evento para quem é apaixonado por uvas",
+    "title": "Novo Evento teste",
+    "details": "Um evento para ...",
     "maximumAttendees": 1
 }
 
 
 ###
 
-POST http://localhost:3333/events/a0fce97f-45c3-4ee4-bb65-600116d8087b/attendees
+POST http://localhost:3333/events/0d4ae03b-7609-49f1-8d48-43a881cccaa4/attendees
 Content-Type: application/json
 
 {
   "name": "Giselle Brasil",
-  "email": "giselle@gmail.com.br"
+  "email": "giselle5@gmail.com.br"
 }
