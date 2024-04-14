@@ -2,28 +2,28 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "123666888",
-    "details": "Um evento para ...",
-    "maximumAttendees": 1
+    "title": "outro evento",
+    "details": "Vamos ...",
+    "maximumAttendees": 15
 }
 
 ###
 
-POST http://localhost:3333/events/0d4ae03b-7609-49f1-8d48-43a881cccaa4/attendees
+POST http://localhost:3333/events/f8305af6-0452-4870-a244-84f670f3964c/attendees
 Content-Type: application/json
 
 {
-  "name": "Giselle Brasil",
-  "email": "giselle5@gmail.com.br"
+  "name": "Lucas",
+  "email": "luc@gmail.com.br"
 }
 
 ###
 
-GET http://localhost:3333/events/0d4ae03b-7609-49f1-8d48-43a881cccaa4
+GET http://localhost:3333/events/a7e7a2ff-79e4-44e1-b51a-b44cdc73231b
 
 ### 
 
-GET http://localhost:3333/attendees/4/badge
+GET http://localhost:3333/attendees/7/badge
 
 ### 
 
@@ -31,4 +31,4 @@ GET http://localhost:3333/attendees/3/check-in
 
 ###
 
-GET http://localhost:3333/events/a0fce97f-45c3-4ee4-bb65-600116d8087b/attendees?query=giselle
+GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees?query=mr
